@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(209, 206, 206);
+    margin: 0 ;
+    height: 50%;
+}
+h1 {
+    margin: 0 auto;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(238, 10, 10);
+    height: 40px;
+}
+
+.titulo {
+color:rgb(255, 255, 255);
+background-color: rgb(37, 165, 148);
+
+}
+form {
+    display: flex ;
+    flex-direction: row;
+
+}
+.principal {
+text-align: center;
+}
+
+.caja {
+    width: 250px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    
+}
+
+.caja > img {
+    width: 100%;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 35px;
+
+}
+
+.datos h2 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    padding: 5%;
+}
+p {
+    padding: 5%;
+}
